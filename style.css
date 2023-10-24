@@ -1,0 +1,252 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    
+}
+body{
+  animation-name: body;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-direction:normal;
+  animation-duration: 2s;
+  
+}
+@keyframes body{
+  from{
+width:700px;
+  }
+  to{
+width: 970px;
+  }
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    flex-wrap: wrap;
+    
+}
+ul li{
+    display: inline-block;
+    flex-wrap: wrap;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+ul li a:hover{
+    color: orange;
+    transition: .4s;
+}
+.logo{
+    margin-right: 100px;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.home{
+    width: 100%;
+ margin-top: 150px;
+ flex-wrap: wrap;  
+}
+.home img{
+    height: auto;
+width: 300px;
+}
+.text{
+    width: 550px;
+}
+.img{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.text h5{
+    font-size: 50px;
+
+    margin-bottom: 10px;
+}
+.text p{
+
+    letter-spacing: 1px;
+}
+.text button{
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: orange;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+.text button:hover{
+    transition: .4s;
+    transform: scale(0.9);
+}
+.to{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+ .card{
+    flex-wrap: wrap;
+    background-color: rgb(235, 224, 224);
+   flex: 0 0 20%;
+   text-align: center;
+   box-shadow: 5px 5px 15px 15px  rgb(211, 206, 206);
+   border-radius: 10px;
+   cursor: pointer;
+ }
+ .card:hover{
+    transition: .4s;
+    transform: scale(1.1);
+ }
+ .card img{
+    margin-top: 15px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+ }
+ .card h2{
+    margin-top: 20px;
+ }
+ .card i{
+    margin-top: 5px;
+    color: rgb(255, 255, 0);
+ }
+ .card h4{
+    margin-top: 5px;
+ }
+ .for{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+    flex-wrap: wrap;
+ }
+ .for input{
+    
+   border-radius: 10px;
+    padding: 10px 10px;
+    margin-right: 50px;
+    flex-wrap: wrap;
+ }
+ .for button{
+    padding: 10px 20px;
+    border: none;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    flex-wrap: wrap;
+ }
+ .for button:hover{
+    transition: .4s;
+    transform: scale(0.8);
+ }
+ .About{
+   margin: 100px;
+   text-align: center;
+   flex-wrap: wrap;
+ }
+.p{
+    margin-top: 70px;
+    flex-wrap: wrap;
+}
+
+.and {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+  }
+  
+  h1 {
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  label {
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    flex-wrap: wrap;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    flex-wrap: wrap;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  footer {
+    background-color: #424242;
+    padding: 70px 0;
+    text-align: center;
+    color: white;
+    flex-wrap: wrap;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .footer-logo h5 {
+    margin: 0;
+    font-size: 30px;
+
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    flex-wrap: wrap;
+  }
+  
+  .social-icons a:hover {
+    color: #007bff;
+  }
+  .footer-content h5{
+    font-size: 30px;
+    flex-wrap: wrap;
+  }
